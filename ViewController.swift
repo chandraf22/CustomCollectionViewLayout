@@ -40,6 +40,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 //        flowLayout.itemSize = CGSize(width: 200, height: 300)
 //        flowLayout.scrollDirection = .vertical
 //        flowLayout.minimumInteritemSpacing = 10
+//        flowLayout.minimumLineSpacing = -100
 //        collectionView.setCollectionViewLayout(flowLayout, animated: true)
         
         collectionView.register(MainCollectionViewCell.self, forCellWithReuseIdentifier: MainCollectionViewCell.reuseIdentifier())
